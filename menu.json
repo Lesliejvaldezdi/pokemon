@@ -1,0 +1,207 @@
+{
+"items": {
+    {
+        "category":"Desayunos",
+        "items":[
+            {
+                "name":"Pan frances",
+                "descripcion":"Pan frances con frutillas y yogurt griego",
+                "price":"$50",
+                "image":"img/desayuno1.jpg"
+            },
+            {
+                "name":"Avena",
+                "descripcion":"Avena con frutitas y huevos rancheros",
+                "price":"$45",
+                "image":"img/desayuno2.jpg"
+            },
+            {
+                "name":"Pan tostado",
+                "descripcion":"El pan tostado con aguacate y huevo es el desayuno saludable perfecto. Lleno de tanto sabor que no querrás perderte ni un bocado.",
+                "price":"$45",
+                "image":"img/desayuno3.jpg"
+            },
+            {
+                "name":"Hotcakes",
+                "descripcion":"Se conoce como hot cake a un pan plano redondo dulce, cuya masa base contiene usualmente leche, mantequilla, huevos, harina de trigo, levadura, azúcar, sal y esencia o saborizantes.",
+                "price":"$35",
+                "image":"img/desayuno4.jpg"
+            },
+            {
+                "name":"Crepa",
+                "descripcion":"La crepa,crepe o creps es un receta con la que se elabora una masa en forma de disco, de unos 16 cm de diámetro que se rellena y se pliega en forma de triángulo",
+                "price":"$30",
+                "image":"img/desayuno5.jpg"
+            }
+        ]
+    },
+    {
+        "category":"Almuerzos",
+        "items":[
+            {
+                "name":"ensalada de pollo",
+                "descripcion":"La Ensalada de pollo es una ensalada en la que el ingrediente principal es la carne de pollo que ha sido previamente hervida y desmenuzada. En algunas ocasiones se añaden papas y zanahorias cocidas y cortadas en brunoise y guisantes.",
+                "price":"$60",
+                "image":"img/ensalada1.jpg"
+            },
+            {
+                "name":"Molletes",
+                "descripcion":"El mollete es una preparación culinaria que consiste en un pan tipo bolillo o telera cortado por la mitad y untado con frijoles refritos y luego gratinado con queso en el horno. Sobre esta base se pueden agregar pico de gallo, aguacate, rajas, chorizo o huevo frito, así como cátsup u otras salsas.",
+                "price":"$55",
+                "image":"img/almuerzo2"
+            },
+            {
+                "name":"Chilaquiles",
+                "descripcion":"Los chilaquiles son un plato típico mexicano elaborado con tortillas cortadas, fritas o tostadas que se cocinan en una salsa picante ya sea roja o verde dependiendo del tipo de chile usado y tiene multitud de variantes regionales.",
+                "price":"$50",
+                "image":"img/almuerzo3"
+            },
+            {
+                "name":"Huevos Rancheros",
+                "descripcion":"Los huevos rancheros son huevos estrellados que se terminan de cocer en una salsa,la mas comun es la salsa roja,que puede llevar cualquier chile,ya sea uno de picor o chile morita.",
+                "price":"$30",
+                "image":"img/almuerzo4.webp"
+            },
+            {
+                "name":"Pan frances",
+                "descripcion":"La empanada es una fina masa de pan, masa quebrada u hojaldre rellena con una preparación salada o dulce y cocida al horno o frita. El relleno puede incluir carnes rojas o blancas, queso, pescado, verduras o fruta.",
+                "price":"$40",
+                "image":"img/almuerzo5"
+            }
+        ]
+    },
+    {
+        "category":"Comidas",
+        "items":[
+            {
+                "name":"Enmoladas",
+                "descripcion":"Las Enmoladas son tortillas rellenas de pollo deshebrado, enrolladas y bañadas en Mole. Pueden estar acompañadas de diversos complementos como decoración.",
+                "price":"60",
+                "image":"img/enmoladas1"
+            },
+            {
+                "name":"Tortitasdepapa",
+                "descripcion":"Tortitas hechas con papa cocida y machacada, mezclada con huevo, leche, sal y queso. Se fríen en poco aceite hasta que se doran de ambos lados. Se acompañan con cualquier ensalada sencilla de lechuga, frijoles o arroz.",
+                "price":"$45",
+                "image":"img/tortitasdepapa2"
+            },
+            {
+                "name":"Sopes",
+                "descripcion":"Los sopes son una comida mexicana que consiste en una tortilla gruesa y ancha, «pellizcadas» por las orillas para formarle bordes y frita en manteca.",
+                "price":"$50",
+                "image":"img/sopes3"
+            },
+            {
+                "name":"Enchiladas verdes",
+                "descripcion":"Las enchiladas verdes se preparan con tomate, además de llevar cilantro o epazote en su preparación. También pueden ser rellenas de pollo o carne deshebrada.",
+                "price":"$40",
+                "image":"img/enchiladasverdes4"
+            }
+        ]
+    },
+    {
+        "category":"Cenas",
+        "items":[
+            {
+                "name":"Tostadas",
+                "descripcion":"Tostada extra crocante, cubierta de ajonjolí dorado, con un relleno húmedo de camarones. Servidos con una salsa dulce y picante al mismo tiempo, ¡harán las delicias de los gourmets!",
+                "price":"30",
+                "image":"img/cena1"
+            },
+            {
+                "name":"Lasaña",
+                "descripcion":"La lasaña es un tipo de pasta. Se suele servir en láminas superpuestas intercaladas con capas de ingredientes al gusto, más frecuentemente carne en salsa boloñesa y bechamel.",
+                "price":"$45",
+                "image":"img/lasana2"
+            },
+            {
+                "name":"Lentejas",
+                "descripcion":"La sopa de lentejas es una sopa típica de la cocina mediterránea cuyo principal ingrediente es la lenteja.",
+                "price":"$40",
+                "image":"img/lentejas3"
+            },
+            {
+                "name":"Pasta",
+                "descripcion":"La pasta son unos alimentos preparados con una masa cuyo ingrediente básico es la harina de trigo, mezclada con agua, y a la cual se puede añadir sal, huevo u otros ingredientes, conformando un producto que generalmente se cuece en agua hirviendo.",
+                "price":"$40",
+                "image":"img/cenapasta5"
+            },
+            {
+                "name":"Pizza",
+                "descripcion":"Especie de torta de harina amasada, encima de la cual se pone queso, tomate frito y otros ingredientes, y que se cuece en el horno.",
+                "price":"$80",
+                "image":"img/pizzasaludable4"
+            }
+        ]
+    },
+    {
+        "category":"Postres",
+        "items":[
+            {
+                "name":"Flan",
+                "descripcion":"Postre lácteo tradicional, típico de nuestra gastronomía. Se prepara normalmente con huevos enteros, leche y azúcar.",
+                "price":"$30",
+                "image":"img/flan1"
+            },
+            {
+                "name":"Pay de limon",
+                "descripcion":"Es un postre delicioso y particular por sus texturas, tiene una base de masa quebrada y una cremosa crema de limón que al momento de juntarse en la boca, desatan una sensación única.",
+                "price":"$30",
+                "image":"img/paydelimon2"
+            },
+            {
+                "name":"Brownie",
+                "descripcion":"Pastelillos dulces, pequeños, que tienen una cubierta de chocolate y pueden incluir en su interior trocitos de nuez, chocolate, mantequilla de cacahuate y una variedad de ingredientes.",
+                "price":"$25",
+                "image":"img/brownie3"
+            },
+            {
+                "name":"Fresas con Crema",
+                "descripcion":"Las fresas con nata o crema son un postre y una merienda de origen inglés,que incluye las citadas frutas que se sirven troceadas y bañadas en nata montada con azúcar o bien con nata montada y azúcar moreno salpicada al gusto.",
+                "price":"$60",
+                "image":"img/fresasconcrema4"
+            },
+            {
+                "name":"Chocoflan mini",
+                "descripcion":"Postre exquisito y con presentación agradable, incluído entre los favoritos de la cocina mexicana. Consistente en un pastel de dos capas: una de flan y otra de bizcocho de chocolate",
+                "price":"$30",
+                "image":"img/chocoflanmini5"
+            },
+        ]
+    },
+    {
+        "category":"Bebidas",
+        "items":[
+            {
+                "name":"Limonada",
+                "descripcion":"Bebida de elaboración usualmente casera, a base de limón, agua y azúcar",
+                "price":"$25",
+                "image":"img/limonada1"
+            },
+            {
+                "name":"Jugo de naranja",
+                "descripcion":"El jugo de naranja o zumo de naranja es un jugo de frutas en forma de líquido obtenido de exprimir el interior de las naranjas, generalmente con un exprimidor.",
+                "price":"$25",
+                "image":"img/naranjada2"
+            },{
+                "name":"Cafe",
+                "descripcion":"El café es la bebida que se obtiene mediante el percolado de agua caliente a través de los granos tostados y molidos de los frutos de la planta del café (cafeto);es altamente estimulante por su contenido de cafeína,una sustancia psicoactiva.",
+                "price":"$25",
+                "image":"img/cafe3"
+            },
+            {
+                "name":"Licuado de platano",
+                "descripcion":"El licuado de banana con leche es muy simple de preparar. Un batido que si se desea, se le puede agregar una cucharada de miel o azúcar.",
+                "price":"$30",
+                "image":"img/licuadobanana4"
+            },
+            {
+                "name":"chocomilk",
+                "descripcion":"La leche chocolatada, chocolatada, leche de/con chocolate o chocomilk (del inglés chocomilk), es una bebida preparada con leche (vegetal o animal) y cacao en polvo, que puede tomarse fría o caliente.",
+                "price":"$30",
+                "image":"img/chocomilk5"
+            }
+        ]
+    }
+}
+}

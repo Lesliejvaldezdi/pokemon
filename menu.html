@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+ <title>Restaurante Cetis menu</title>
+</head>
+<body>
+    <style>
+        img{                            
+            width:200px;
+            height:auto;
+        }
+        table{                  
+            width: 80%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            border: 1.5px dotted rgb(45, 98, 196);
+            box-shadow: 0 5px 15px black;                               
+            margin-left:50px ;
+        }
+        th,tr{                     
+            text-align: left;
+            padding: 8px;
+        }
+        tr:nth-child(even){
+            background-color: rgb(195, 210, 228);
+        }
+        tr:hover{                         
+            background-color: aquamarine;
+        }
+    </style>
+    <div style="margin: 24px;">
+        <nav class="navba navbar-light"
+        style="background-color: rgb(234, 238, 226);">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"
+            >Inicio</a>
+            <div class="collapse navbar-collapse" id="navbarNabDropDown">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item
+                     dropdown">
+                     <a class="nav-link dropdown-toggle"
+                     href="" id="navbarDropdownMenuLink"
+                     data-toggle="dropdown"
+                     aria-haspopup="true"
+                     aria-expanded="false">unidad 1</a>
+                     <div class="dropdown-menu"
+                     aria-labelledby="navbarDripdownMenuLink">
+                     <a class="dropdown-item" href="perfil1.html">perfil</a><br>
+                     <a class="dropdown-item" href="calculadora.html">Calculadora</a><br>
+                     <a class="dropdown-item" href="tienda.html">Tienda parte 1</a><br>
+                     </div>
+                    </li>
+                    <li class="nav-item
+                    dropdown">
+                    <a class="nav-link dropdown-toggle"
+                    href="" id="navbarDropdownMenuLink"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false">unidad 2</a>
+                    <div class="dropdown-menu"
+                    aria-labelledby="navbarDripdownMenuLink">
+                    <a class="dropdown-item" href="tiendapedido.html">Tienda pedido</a><br>
+                    <a class="dropdown-item" href="json.html">JSON</a><br>
+                    <a class="dropdown-item" href="tiendapedido2.html">Tienda parte 2</a><br>
+                    </div>
+                   </li>
+                   <li class="nav-item
+                   dropdown">
+                   <a class="nav-link dropdown-toggle"
+                   href="" id="navbarDropdownMenuLink"
+                   data-toggle="dropdown"
+                   aria-haspopup="true"
+                   aria-expanded="false">unidad 3</a>
+                   <div class="dropdown-menu"
+                   aria-labelledby="navbarDripdownMenuLink">
+                   <a class="dropdown-item" href="basededatos.html">Base de datos</a><br>
+                   <a class="dropdown-item" href="peliculas.html">Peliculas</a><br>
+                   </div>
+                  </li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+    </div>
+    <div style="margin:24px;">
+    </div>
+    <a href="tienda.html"></a>
+    <h1>Desayunos</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="img/desayuno1.jpg" alt="Desayuno"></td>
+            <td><p>Pan frances con frutillas y yogurt griego</p></td>
+            <td>$50</td>
+        </tr>
+        <tr>
+            <td><img src="img/desayuno2.jpg" alt="Desayuno"></td>
+            <td><p>Avena con frutitas y huevos rancheros</p></td>
+            <td>$45</td>
+        </tr>
+        <tr>
+            <td><img src="img/desayuno3.jpg" alt="Desayuno"></td>
+            <td><p>El pan tostado con aguacate y huevo es el desayuno saludable perfecto. Lleno de tanto sabor que no querrás perderte ni un bocado.</p></td>
+            <td>$45</td>
+        </tr>
+        <tr>
+            <td><img src="img/desayuno4.jpg" alt="Hotcakes"></td>
+            <td><p>Se conoce como hot cake a un pan plano redondo dulce, cuya masa base contiene usualmente leche, mantequilla, huevos, harina de trigo, levadura, azúcar, sal y esencia o saborizantes.</p></td>
+            <td>$35</td>
+        </tr>
+        <tr>
+            <td><img src="img/desayuno5.jpg" alt="Desayuno"></td>
+            <td><p>La crepa,crepe o creps es un receta con la que se elabora una masa en forma de disco, de unos 16 cm de diámetro que se rellena y se pliega en forma de triángulo.</p></td>
+            <td>$30</td>
+        </tr>
+        <tr>
+            <td><img src="img/desayuno6.jpg" alt="Desayuno"></td>
+            <td><p>El yogur contiene proteínas muy útiles para el ser humano y una mayor digestibilidad que la leche. Además, es una buena fuente de vitaminas del grupo B y A y una excelente fuente de minerales como el calcio, fósforo, magnesio y zinc.</p></td>
+            <td>$40</td>
+        </tr>
+
+    
+    </table>
+    <h1>Almuerzos</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="img/ensalada1.jpg" alt="Almuerzo"></td>
+            <td><p>La Ensalada de pollo es una ensalada en la que el ingrediente principal es la carne de pollo que ha sido previamente hervida y desmenuzada. En algunas ocasiones se añaden papas y zanahorias cocidas y cortadas en brunoise y guisantes.</p></td>
+            <td>$60</td>
+        </tr>
+        <tr>
+            <td><img src="img/almuerzo2.jpg" alt="Almuerzo"></td>
+            <td><p>El mollete es una preparación culinaria que consiste en un pan tipo bolillo o telera cortado por la mitad y untado con frijoles refritos y luego gratinado con queso en el horno. Sobre esta base se pueden agregar pico de gallo, aguacate, rajas, chorizo o huevo frito, así como cátsup u otras salsas.</p></td>
+            <td>$55</td>
+        </tr>
+        <tr>
+            <td><img src="img/almuerzo3.jpg" alt="Almuerzo"></td>
+            <td><p>Los chilaquiles son un plato típico mexicano elaborado con tortillas cortadas, fritas o tostadas que se cocinan en una salsa picante ya sea roja o verde dependiendo del tipo de chile usado y tiene multitud de variantes regionales.</p></td>
+            <td>$50</td>
+        </tr>
+        <tr>
+            <td><img src="img/almuerzo4.webp" alt="Almuerzo"></td>
+            <td><p>Los huevos rancheros son huevos estrellados que se terminan de cocer en una salsa,la mas comun es la salsa roja,que puede llevar cualquier chile,ya sea uno de picor o chile morita.</p></td>
+            <td>$30</td>
+        </tr>
+        <tr>
+            <td><img src="img/almuerzo5.jpg" alt="Almuerzo"></td>
+    ​       <td><p>La empanada es una fina masa de pan, masa quebrada u hojaldre rellena con una preparación salada o dulce y cocida al horno o frita. El relleno puede incluir carnes rojas o blancas, queso, pescado, verduras o fruta.</p></td>
+            <td>$40</td>
+        </tr>
+        <tr>
+            <td><img src="img/almuerzo6.jpeg" alt="Desayuno"></td>
+            <td><p>Emparedado hecho con dos rebanadas de pan de molde entre las que se coloca jamón, queso, embutido, vegetales u otros alimentos.</p></td>
+            <td>$40</td>
+        </tr>
+
+    
+    </table>
+
+    <h1>Comidas</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="img/enmoladas1.jpg" alt="Comida"></td>
+            <td><p>Las Enmoladas son tortillas rellenas de pollo deshebrado, enrolladas y bañadas en Mole. Pueden estar acompañadas de diversos complementos como decoración.</p></td>
+            <td>$60</td>
+        </tr>
+        <tr>
+            <td><img src="img/tortitasdepapa2.jpg" alt="Comida"></td>
+            <td><p>Tortitas hechas con papa cocida y machacada, mezclada con huevo, leche, sal y queso. Se fríen en poco aceite hasta que se doran de ambos lados. Se acompañan con cualquier ensalada sencilla de lechuga, frijoles o arroz.</p></td>
+            <td>$45</td>
+        </tr>
+        <tr>
+            <td><img src="img/sopes3.jpg" alt="Comida"></td>
+            <td><p>Los sopes son una comida mexicana que consiste en una tortilla gruesa y ancha, «pellizcadas» por las orillas para formarle bordes y frita en manteca. </p></td>
+            <td>$50</td>
+        </tr>
+        <tr>
+            <td><img src="img/enverdes4.jpg" alt="Comida"></td>
+            <td><p>Las enchiladas verdes se preparan con tomate, además de llevar cilantro o epazote en su preparación. También pueden ser rellenas de pollo o carne deshebrada. </p></td>
+            <td>$40</td>
+        </tr>
+        <tr>
+            <td><img src="img/flautas5.jpg" alt="Comida"></td>
+            <td><p>Cuando los tacos se enrollan firmemente y se fríen hasta quedar crujientes se les llaman flautas. Su nombre se debe a la semejanza de tubos o “flautas”.</p></td>
+            <td>$50</td>
+        </tr>
+        <tr>
+            <td><img src="img/tacos6.jpg" alt="Comida"></td>
+            <td><p>La anatomía del taco consiste en una tortilla (generalmente de maíz), seguido de un guiso, acompañado con cebolla, cilantro picado y limón, así como alguna salsa, la cual varía en su picor al gusto del comensal.</p></td>
+            <td>$30</td>
+        </tr>
+    </table>
+    <h1>Cenas</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="img/cena1.jpg" alt="cena1"></td>
+            <td><p>Tostada extra crocante, cubierta de ajonjolí dorado, con un relleno húmedo de camarones. Servidos con una salsa dulce y picante al mismo tiempo, ¡harán las delicias de los gourmets!</p></td>
+            <td>$30</td>
+        </tr>
+        <tr>
+            <td><img src="img/lasana2.jpg" alt="cena2"></td>
+            <td><p>La lasaña es un tipo de pasta. Se suele servir en láminas superpuestas intercaladas con capas de ingredientes al gusto, más frecuentemente carne en salsa boloñesa y bechamel. </p></td>
+            <td>$45</td>
+        </tr>
+        <tr>
+            <td><img src="img/lentejas3.jpg" alt="cena3"></td>
+            <td><p>La sopa de lentejas es una sopa típica de la cocina mediterránea cuyo principal ingrediente es la lenteja.</p></td>
+            <td>$40</td>
+        </tr>
+        <tr>
+            <td><img src="img/pizzasaludable4.jpeg" alt="cena4"></td>
+            <td><p>Especie de torta de harina amasada, encima de la cual se pone queso, tomate frito y otros ingredientes, y que se cuece en el horno.</p></td>
+            <td>$80</td>
+        </tr>
+        <tr>
+            <td><img src="img/cenapasta5.jpg" alt="cena5"></td>
+            <td><p>La pasta son unos alimentos preparados con una masa cuyo ingrediente básico es la harina de trigo, mezclada con agua, y a la cual se puede añadir sal, huevo u otros ingredientes, conformando un producto que generalmente se cuece en agua hirviendo.</p></td>
+            <td>$40</td>
+        </tr>
+        <tr>
+            <td><img src="img/cena6.jpg" alt="cena6"></td>
+            <td><p>El arroz y los frijoles son una combinación de granos y legumbres muy básica que se expande en una amplia variedad de países y culturas.Ademas de la papa,alimento básico y económico, que aporta micronutrimentos como: hierro, calcio, fósforo y vitamina C </p></td>
+            <td>$60</td>
+        </tr>
+
+    </table>
+    <h1>Postres</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="img/flan1.jpg" alt="Postre1"></td>
+            <td><p>Postre lácteo tradicional, típico de nuestra gastronomía. Se prepara normalmente con huevos enteros, leche y azúcar. </p></td>
+            <td>$30</td>
+        </tr>
+        <tr>
+            <td><img src="img/paydelimon2.jpg" alt="Postre2"></td>
+            <td><p>Es un postre delicioso y particular por sus texturas, tiene una base de masa quebrada y una cremosa crema de limón que al momento de juntarse en la boca, desatan una sensación única.</p></td>
+            <td>$30</td>
+        </tr>
+        <tr>
+            <td><img src="img/brownie3.jpg" alt="Postre3"></td>
+            <td><p>Pastelillos dulces, pequeños, que tienen una cubierta de chocolate y pueden incluir en su interior trocitos de nuez, chocolate, mantequilla de cacahuate y una variedad de ingredientes.</p></td>
+            <td>$25</td>
+        </tr>
+        <tr>
+            <td><img src="img/fresasconcrema4.jpg" alt="Postre4"></td>
+            <td><p>Las fresas con nata o crema son un postre y una merienda de origen inglés,que incluye las citadas frutas que se sirven troceadas y bañadas en nata montada con azúcar o bien con nata montada y azúcar moreno salpicada al gusto.</p></td>
+            <td>$60</td>
+        </tr>
+        <tr>
+            <td><img src="img/chocoflanmini5.jpg" alt="Postre5"></td>
+            <td><p>Postre exquisito y con presentación agradable, incluído entre los favoritos de la cocina mexicana. Consistente en un pastel de dos capas: una de flan y otra de bizcocho de chocolate</p></td>
+            <td>$30</td>
+        </tr>
+        <tr>
+            <td><img src="img/pastel6.jpg" alt="Postre6"></td>
+            <td><p>Postre elaborado con masa de harina de trigo horneada y otros ingredientes o preparaciones.</p></td>
+            <td>$30</td>
+        </tr>
+    </table>
+
+        <h1>Bebidas</h1>
+        <table>
+            <tr>
+                <th>Imagen</th>
+                <th>Descripcion</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td><img src="img/limonada1.jpg" alt="Bebida"></td>
+                <td><p>Bebida de elaboración usualmente casera, a base de limón, agua y azúcar</p></td>
+                <td>$25</td>
+            </tr>
+            <tr>
+                <td><img src="img/naranjada2.jpg" alt="Bebida"></td>
+                <td><p>El jugo de naranja o zumo de naranja es un jugo de frutas en forma de líquido obtenido de exprimir el interior de las naranjas, generalmente con un exprimidor.</p></td>
+                <td>$25</td>
+            </tr>
+            <tr>
+                <td><img src="img/cafe3.jpg" alt="Bebida"></td>
+                <td><p>El café es la bebida que se obtiene mediante el percolado de agua caliente a través de los granos tostados y molidos de los frutos de la planta del café (cafeto);es altamente estimulante por su contenido de cafeína,una sustancia psicoactiva.</p></td>
+                <td>$25</td>
+            </tr>
+            <tr>
+                <td><img src="img/licuadobanana4.jpg" alt="Bebida"></td>
+                <td><p>El licuado de banana con leche es muy simple de preparar. Un batido que si se desea, se le puede agregar una cucharada de miel o azúcar.</p></td>
+                <td>$30</td>
+            </tr>
+            <tr>
+                <td><img src="img/chocomilk5.jpg" alt="Bebida"></td>
+                <td><p>La leche chocolatada, chocolatada, leche de/con chocolate o chocomilk (del inglés chocomilk), es una bebida preparada con leche (vegetal o animal) y cacao en polvo, que puede tomarse fría o caliente.</p></td>
+                <td>$30</td>
+            </tr>
+            <tr>
+                <td><img src="img/horchata6.jpg" alt="Bebida"></td>
+                <td><p>bebida refrescante que se prepara normalmente con granos de arroz remojados en agua que después se muelen y se mezclan con agua endulzada; al final se aromatiza con canela. Puede añadirse leche y, ocasionalmente, otros ingredientes.</p></td>
+                <td>$25</td>
+            </tr>
+    </table>
+
+
+</body>
+</html>
